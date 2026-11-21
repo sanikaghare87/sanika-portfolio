@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="roadBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5F3FF"/>
+      <stop offset="50%" stop-color="#EDE9FE"/>
+      <stop offset="100%" stop-color="#E9D5FF"/>
+    </linearGradient>
+    <linearGradient id="roadSurface" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4C1D95"/>
+      <stop offset="100%" stop-color="#2E1065"/>
+    </linearGradient>
+    <linearGradient id="scanBeam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#C084FC" stop-opacity="0.05"/>
+    </linearGradient>
+    <filter id="roadShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#6D28D9" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="600" height="360" rx="16" fill="url(#roadBg)"/>
+
+  <!-- Main Card Container -->
+  <rect x="70" y="45" width="460" height="270" rx="20" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="2" filter="url(#roadShadow)"/>
+
+  <!-- Top Header / Detection HUD Bar -->
+  <rect x="90" y="60" width="420" height="32" rx="10" fill="#FAF5FF" stroke="#E9D5FF"/>
+  <circle cx="110" cy="76" r="5" fill="#EF4444"/>
+  <circle cx="125" cy="76" r="5" fill="#F59E0B"/>
+  <circle cx="140" cy="76" r="5" fill="#10B981"/>
+  <text x="165" y="80" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#5B21B6">RoadMind AI • Vision Inspection Active</text>
+  <rect x="400" y="66" width="95" height="20" rx="10" fill="#EDE9FE"/>
+  <text x="447" y="80" font-family="sans-serif" font-size="10" font-weight="700" fill="#7C3AED" text-anchor="middle">Confidence 96.8%</text>
+
+  <!-- Road Perspective View Area -->
+  <g transform="translate(90, 105)">
+    <!-- Road Base (Perspective Trapezoid) -->
+    <path d="M 160 10 L 260 10 L 380 185 L 40 185 Z" fill="url(#roadSurface)" rx="8"/>
+    
+    <!-- Road Lane Dashes -->
+    <line x1="210" y1="20" x2="210" y2="40" stroke="#F5F3FF" stroke-width="2.5" opacity="0.8"/>
+    <line x1="210" y1="60" x2="210" y2="90" stroke="#F5F3FF" stroke-width="3.5" opacity="0.8"/>
+    <line x1="210" y1="115" x2="210" y2="155" stroke="#F5F3FF" stroke-width="4.5" opacity="0.9"/>
+
+    <!-- AI Computer Vision Scanner Cone -->
+    <polygon points="210,0 80,185 340,185" fill="url(#scanBeam)"/>
+
+    <!-- Pothole / Hazard 1 Detection Box -->
+    <g transform="translate(140, 115)">
+      <!-- Target Bounding Box -->
+      <rect x="0" y="0" width="70" height="42" rx="6" fill="#EF4444" fill-opacity="0.2" stroke="#EF4444" stroke-width="2" stroke-dasharray="4,2"/>
+      <!-- Target Corner Brackets -->
+      <path d="M -2 6 L -2 -2 L 6 -2" fill="none" stroke="#EF4444" stroke-width="2.5"/>
+      <path d="M 64 -2 L 72 -2 L 72 6" fill="none" stroke="#EF4444" stroke-width="2.5"/>
+      <path d="M -2 36 L -2 44 L 6 44" fill="none" stroke="#EF4444" stroke-width="2.5"/>
+      <path d="M 72 36 L 72 44 L 64 44" fill="none" stroke="#EF4444" stroke-width="2.5"/>
+      <!-- Pothole Silhouette -->
+      <ellipse cx="35" cy="21" rx="22" ry="11" fill="#1E1B4B" opacity="0.7"/>
+      <!-- Floating Label -->
+      <rect x="0" y="-18" width="80" height="16" rx="4" fill="#EF4444"/>
+      <text x="40" y="-6" font-family="sans-serif" font-size="8.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">POTHOLE 98%</text>
+    </g>
+
+    <!-- Pothole / Hazard 2 Detection (Road Surface Crack) -->
+    <g transform="translate(250, 65)">
+      <rect x="0" y="0" width="45" height="26" rx="4" fill="#F59E0B" fill-opacity="0.2" stroke="#F59E0B" stroke-width="1.5" stroke-dasharray="3,2"/>
+      <ellipse cx="22" cy="13" rx="14" ry="6" fill="#1E1B4B" opacity="0.6"/>
+      <rect x="0" y="-14" width="62" height="13" rx="3" fill="#F59E0B"/>
+      <text x="31" y="-4" font-family="sans-serif" font-size="7.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">CRACK 92%</text>
+    </g>
+  </g>
+
+  <!-- Bottom Floating Telemetry Banner -->
+  <rect x="110" y="275" width="380" height="24" rx="12" fill="#FAF5FF" stroke="#DDD6FE"/>
+  <text x="300" y="291" font-family="sans-serif" font-size="10" font-weight="600" fill="#5B21B6" text-anchor="middle">Real-time Safety Alert • Pothole Geotagged • Smarter Road Intelligence</text>
+</svg>

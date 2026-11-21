@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanika Ghare | AI & Data Science Engineering Portfolio</title>
+  <meta name="description" content="Personal portfolio of Sanika Ghare - B.Tech Artificial Intelligence and Data Science Engineering Student at Dr. D. Y. Patil College of Engineering and Innovation, Pune.">
+  <meta name="author" content="Sanika Ghare">
+
+  <!-- Google Fonts: Plus Jakarta Sans for Modern, Elegant Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ======================================================================
+       HEADER & NAVIGATION BAR
+       ====================================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="nav-logo" aria-label="Sanika Ghare Home">
+        <div class="logo-badge">SG</div>
+        <span>Sanika Ghare</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li class="nav-item"><a href="#home" class="active">Home</a></li>
+          <li class="nav-item"><a href="#about">About Me</a></li>
+          <li class="nav-item"><a href="#education">Education</a></li>
+          <li class="nav-item"><a href="#skills">Skills</a></li>
+          <li class="nav-item"><a href="#projects">Projects</a></li>
+          <li class="nav-item"><a href="#certifications">Certifications</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-cta-btn">Contact Me</a></li>
+        </ul>
+      </nav>
+
+      <!-- Mobile Hamburger Toggle -->
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path d="M4 6h16M4 12h16M4 18h16" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- ======================================================================
+       HOME / HERO SECTION
+       ====================================================================== -->
+  <section class="hero-section" id="home">
+    <div class="container">
+      <div class="hero-grid">
+        
+        <!-- Hero Introduction Text -->
+        <div class="hero-content">
+          <div class="hero-status-pill">
+            <span class="status-dot"></span>
+            <span>Available for Internships & Incubation Mentorship</span>
+          </div>
+
+          <p class="hero-greeting">Hello, I'm</p>
+          <h1 class="hero-name">Sanika Ghare</h1>
+          <h2 class="hero-role">Artificial Intelligence & Data Science Student</h2>
+
+          <div class="hero-tagline-quote">
+            AI &amp; Data Science Student | Tech Enthusiast | Aspiring Innovator
+          </div>
+
+          <p class="hero-intro">
+            I am passionate about technology, Artificial Intelligence, Data Science and innovation. I enjoy learning new technologies, developing creative projects and exploring solutions to real-world problems.
+          </p>
+
+          <!-- Action Buttons -->
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+              <span>Explore My Projects</span>
+            </a>
+            <a href="#certifications" class="btn btn-secondary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="8" r="7"></circle>
+                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+              </svg>
+              <span>View My Certificates</span>
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span>Contact Me</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Profile Photo Section -->
+        <div class="hero-visual">
+          <div class="profile-card-wrapper">
+            <div class="profile-glow-ring"></div>
+            
+            <div class="profile-photo-frame">
+              <img src="assets/sanika-photo.jpg" alt="Sanika Ghare Profile Picture" id="profileImage">
+            </div>
+
+            <!-- Floating Micro Badges -->
+            <div class="floating-badge badge-top-right">
+              <div class="badge-icon">✦</div>
+              <div class="badge-text">
+                <span class="badge-title">Field</span>
+                <span class="badge-value">AI &amp; Data Science</span>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-bottom-left">
+              <div class="badge-icon">🎓</div>
+              <div class="badge-text">
+                <span class="badge-title">Academic Year</span>
+                <span class="badge-value">B.Tech 2nd Year</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       ABOUT ME SECTION
+       ====================================================================== -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Driven by Technology &amp; Innovation</h2>
+        <p class="section-subtitle">A glimpse into my passion for artificial intelligence, analytical thinking, and purposeful creation.</p>
+      </div>
+
+      <div class="about-grid">
+        <!-- Main Narrative Card -->
+        <div class="about-text-card">
+          <p class="about-paragraph">
+            Hello! I am <strong>Sanika Ghare</strong>, a second-year B.Tech student specializing in <strong>Artificial Intelligence and Data Science</strong> at Dr. D. Y. Patil College of Engineering and Innovation in Pune. My journey in technology is sparked by deep curiosity and an ambition to engineer solutions that transform complex real-world challenges into intuitive digital experiences.
+          </p>
+          <p class="about-paragraph">
+            I am genuinely passionate about exploring the frontiers of <strong>Artificial Intelligence, Machine Learning, and Data Science</strong>. For me, programming and problem-solving are creative disciplines where logic meets innovation. I relish the process of dissecting intricate algorithms, designing clean architectures, and continuously expanding my technical skill set.
+          </p>
+          <p class="about-paragraph">
+            Whether it's experimenting with contemporary frameworks, contributing to collaborative initiatives like the Smart India Hackathon, or architecting practical software applications, my focus remains steadfast: <strong>learning with enthusiasm, building with purpose, and delivering impactful results</strong>.
+          </p>
+
+          <!-- Core Pillars -->
+          <div class="about-pillars">
+            <div class="pillar-item">
+              <div class="pillar-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 14.93V17a1 1 0 0 1-2 0v-.07A7.003 7.003 0 0 1 5.07 11H5a1 1 0 0 1 0-2h.07A7.003 7.003 0 0 1 11 3.07V3a1 1 0 0 1 2 0v.07A7.003 7.003 0 0 1 18.93 9H19a1 1 0 0 1 0 2h-.07A7.003 7.003 0 0 1 13 16.93z"/>
+                </svg>
+              </div>
+              <div class="pillar-info">
+                <h4>AI &amp; Data Science</h4>
+                <p>Exploring data patterns, machine intelligence, and smart systems.</p>
+              </div>
+            </div>
+
+            <div class="pillar-item">
+              <div class="pillar-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div class="pillar-info">
+                <h4>Problem Solving</h4>
+                <p>Structured algorithmic thinking in Python, C, and C++.</p>
+              </div>
+            </div>
+
+            <div class="pillar-item">
+              <div class="pillar-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+              </div>
+              <div class="pillar-info">
+                <h4>Technology &amp; Innovation</h4>
+                <p>Translating theoretical principles into functional prototypes.</p>
+              </div>
+            </div>
+
+            <div class="pillar-item">
+              <div class="pillar-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                  <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                </svg>
+              </div>
+              <div class="pillar-info">
+                <h4>Continuous Learning</h4>
+                <p>Rapidly adopting emerging tools, frameworks, and modern workflows.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Facts Side Card -->
+        <div class="about-side-card">
+          <div class="side-card-header">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#7B4AE2" stroke-width="2">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+            <h3>Quick Profile</h3>
+          </div>
+
+          <ul class="fact-list">
+            <li class="fact-item">
+              <span class="fact-label">Full Name</span>
+              <span class="fact-value">Sanika Ghare</span>
+            </li>
+            <li class="fact-item">
+              <span class="fact-label">Degree</span>
+              <span class="fact-value">B.Tech (AI &amp; Data Science)</span>
+            </li>
+            <li class="fact-item">
+              <span class="fact-label">Academic Status</span>
+              <span class="fact-value">Second Year</span>
+            </li>
+            <li class="fact-item">
+              <span class="fact-label">Location</span>
+              <span class="fact-value">Pune, Maharashtra, India</span>
+            </li>
+            <li class="fact-item">
+              <span class="fact-label">Primary Interests</span>
+              <span class="fact-value">AI, Data Science &amp; Innovation</span>
+            </li>
+          </ul>
+
+          <div class="opportunity-card">
+            <p>🌟 Ready for College Opportunities, Internships &amp; the Incubation Mentorship Program</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       EDUCATION SECTION
+       ====================================================================== -->
+  <section class="section education-section" id="education">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Education</span>
+        <h2 class="section-title">Academic Journey</h2>
+        <p class="section-subtitle">Building a robust foundational base in artificial intelligence and computer science fundamentals.</p>
+      </div>
+
+      <div class="education-card-wrapper">
+        <div class="education-card">
+          <div class="education-icon-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+              <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+            </svg>
+          </div>
+
+          <div class="education-details">
+            <div class="edu-badge-row">
+              <span class="edu-pill edu-pill-primary">Undergraduate Degree</span>
+              <span class="edu-pill edu-pill-status">Currently Pursuing Second Year</span>
+            </div>
+
+            <h3 class="degree-title">B.Tech – Artificial Intelligence and Data Science</h3>
+            <div class="branch-highlight">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="3"></circle>
+                <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+              </svg>
+              <span>Specialization: Artificial Intelligence &amp; Data Science</span>
+            </div>
+
+            <p class="college-name">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#7B4AE2" stroke-width="2">
+                <path d="M3 21h18M3 7v14M21 7v14M6 10h2M6 14h2M6 18h2M16 10h2M16 14h2M16 18h2M12 3L2 7h20L12 3z"/>
+              </svg>
+              <span>Dr. D. Y. Patil College of Engineering and Innovation</span>
+            </p>
+
+            <p class="college-location">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>Pune, Maharashtra, India</span>
+            </p>
+
+            <p class="edu-description">
+              Curriculum focused on core engineering mathematical foundations, object-oriented design, database paradigms, machine learning models, and practical software implementation.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       TECHNICAL SKILLS SECTION
+       (Note: Strictly no fake skill percentages or proficiency bars)
+       ====================================================================== -->
+  <section class="section skills-section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Technical Skills</span>
+        <h2 class="section-title">Core Competencies</h2>
+        <p class="section-subtitle">Programming languages, foundational tools, and analytical methodologies I work with.</p>
+      </div>
+
+      <div class="skills-grid">
+        
+        <!-- Skill 1: Python -->
+        <div class="skill-card">
+          <div class="skill-icon-wrapper">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 2c-3.1 0-5.2.4-6.4 1.2-1.3.8-1.6 2-1.6 3.8v2h8v1H4c-1.8 0-3.3.7-4 2.3-.7 1.6-.7 3.6 0 5.2.6 1.4 1.9 2.5 3.5 2.5h2.5v-2.3c0-2.3 2-4.2 4.3-4.2h5.7c.9 0 1.6-.7 1.6-1.6V6.8c0-1.8-.7-3.4-2.1-4.1C14.7 2.2 13.5 2 12 2zm-2.4 2.5a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2zM12 22c3.1 0 5.2-.4 6.4-1.2 1.3-.8 1.6-2 1.6-3.8v-2h-8v-1h8c1.8 0 3.3-.7 4-2.3.7-1.6.7-3.6 0-5.2-.6-1.4-1.9-2.5-3.5-2.5H18v2.3c0 2.3-2 4.2-4.3 4.2H8c-.9 0-1.6.7-1.6 1.6v5.2c0 1.8.7 3.4 2.1 4.1.8.5 2 .7 3.5.7zm2.4-2.5a1.1 1.1 0 1 1 0-2.2 1.1 1.1 0 0 1 0 2.2z"/>
+            </svg>
+          </div>
+          <div class="skill-content">
+            <h3 class="skill-name">Python</h3>
+            <span class="skill-category">Programming Language</span>
+          </div>
+        </div>
+
+        <!-- Skill 2: C Programming -->
+        <div class="skill-card">
+          <div class="skill-icon-wrapper">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8c2.25 0 4.28.93 5.74 2.43l-2.15 2.15C14.65 7.64 13.4 7 12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5c1.4 0 2.65-.64 3.59-1.58l2.15 2.15C16.28 19.07 14.25 20 12 20z"/>
+            </svg>
+          </div>
+          <div class="skill-content">
+            <h3 class="skill-name">C Programming</h3>
+            <span class="skill-category">Foundational Language</span>
+          </div>
+        </div>
+
+        <!-- Skill 3: C++ -->
+        <div class="skill-card">
+          <div class="skill-icon-wrapper">
+            <svg viewBox="0 0 24 24">
+              <path d="M11 7c-2.76 0-5 2.24-5 5s2.24 5 5 5c1.4 0 2.65-.64 3.59-1.58l1.77 1.77C15.02 18.47 13.12 19 11 19c-3.87 0-7-3.13-7-7s3.13-7 7-7c2.12 0 4.02.53 5.36 1.81l-1.77 1.77C13.65 7.64 12.4 7 11 7zm7 4h1v-1h2v1h1v2h-1v1h-2v-1h-1v-2zm-5 0h1v-1h2v1h1v2h-1v1h-2v-1h-1v-2z"/>
+            </svg>
+          </div>
+          <div class="skill-content">
+            <h3 class="skill-name">C++</h3>
+            <span class="skill-category">Object-Oriented Programming</span>
+          </div>
+        </div>
+
+        <!-- Skill 4: HTML -->
+        <div class="skill-card">
+          <div class="skill-icon-wrapper">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 2L3 5v14l9 3 9-3V5l-9-3zm6.3 6.2l-.3 3.6h-6v2h5.7l-.5 5.5-5.2 1.4-5.2-1.4-.4-4h2.2l.2 2.2 3.2.9 3.2-.9.2-2.3H8.3L8 8.2h10.3z"/>
+            </svg>
+          </div>
+          <div class="skill-content">
+            <h3 class="skill-name">HTML</h3>
+            <span class="skill-category">Web Structure</span>
+          </div>
+        </div>
+
+        <!-- Skill 5: CSS -->
+        <div class="skill-card">
+          <div class="skill-icon-wrapper">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 2L3 5v14l9 3 9-3V5l-9-3zm6.4 5.5l-.2 2.2h-9.8l.2 2.3h9.4l-.6 6.5-5.4 1.5-5.4-1.5-.4-4h2.2l.2 2.2 3.4.9 3.4-.9.3-3.2H6.9L6.5 7.5h11.9z"/>
+            </svg>
+          </div>
+          <div class="skill-content">
+            <h3 class="skill-name">CSS</h3>
+            <span class="skill-category">Styling &amp; Responsive UI</span>
+          </div>
+        </div>
+
+        <!-- Skill 6: Artificial Intelligence -->
+        <div class="skill-card">
+          <div class="skill-icon-wrapper">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.38-1 1.72V7h2a5 5 0 0 1 5 5v1.28c.6.34 1 .98 1 1.72a2 2 0 1 1-4 0c0-.74.4-1.38 1-1.72V12a3 3 0 0 0-3-3h-2v3.28c.6.34 1 .98 1 1.72a2 2 0 1 1-4 0c0-.74.4-1.38 1-1.72V9H9a3 3 0 0 0-3 3v1.28c.6.34 1 .98 1 1.72a2 2 0 1 1-4 0c0-.74.4-1.38 1-1.72V12a5 5 0 0 1 5-5h2V5.72c-.6-.34-1-.98-1-1.72a2 2 0 0 1 2-2zM9 18a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm6 0a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"/>
+            </svg>
+          </div>
+          <div class="skill-content">
+            <h3 class="skill-name">Artificial Intelligence</h3>
+            <span class="skill-category">Core Domain</span>
+          </div>
+        </div>
+
+        <!-- Skill 7: Data Science -->
+        <div class="skill-card">
+          <div class="skill-icon-wrapper">
+            <svg viewBox="0 0 24 24">
+              <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+            </svg>
+          </div>
+          <div class="skill-content">
+            <h3 class="skill-name">Data Science</h3>
+            <span class="skill-category">Data &amp; Analytics</span>
+          </div>
+        </div>
+
+        <!-- Skill 8: Machine Learning -->
+        <div class="skill-card">
+          <div class="skill-icon-wrapper">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 3c-4.97 0-9 4.03-9 9 0 2.12.74 4.07 1.97 5.61L4.35 19H7.6l.8-1.07C9.53 18.63 10.73 19 12 19c4.97 0 9-4.03 9-9s-4.03-9-9-9zm-1 5h2v2h-2V8zm-3 4h2v2H8v-2zm8 0h2v2h-2v-2zm-5 4h2v2h-2v-2z"/>
+            </svg>
+          </div>
+          <div class="skill-content">
+            <h3 class="skill-name">Machine Learning</h3>
+            <span class="skill-category">Predictive Modeling</span>
+          </div>
+        </div>
+
+        <!-- Skill 9: Problem Solving -->
+        <div class="skill-card">
+          <div class="skill-icon-wrapper">
+            <svg viewBox="0 0 24 24">
+              <path d="M9 21c0 .55.45 1 1 1h4c.55 0 1-.45 1-1v-1H9v1zm3-19C8.14 2 5 5.14 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.86-3.14-7-7-7zm2.85 11.1l-.85.6V16h-4v-2.3l-.85-.6A4.997 4.997 0 0 1 7 9c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.63-.8 3.16-2.15 4.1z"/>
+            </svg>
+          </div>
+          <div class="skill-content">
+            <h3 class="skill-name">Problem Solving</h3>
+            <span class="skill-category">Algorithmic Thinking</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       MY PROJECTS SECTION
+       ====================================================================== -->
+  <section class="section projects-section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">My Projects</span>
+        <h2 class="section-title">Featured Innovations</h2>
+        <p class="section-subtitle">Real-world AI and software engineering concepts developed to solve practical problems.</p>
+      </div>
+
+      <div class="projects-grid">
+        
+        <!-- PROJECT 1: PERSONAL FINANCE ADVISOR BOT -->
+        <div class="project-card">
+          <div class="project-image-box">
+            <img src="assets/project-finance.svg" alt="Personal Finance Advisor Bot Illustration">
+          </div>
+          <div class="project-content">
+            <span class="project-type-tag">AI Web Application</span>
+            <h3 class="project-title">PERSONAL FINANCE ADVISOR BOT</h3>
+            <p class="project-description">
+              An AI-powered personal finance management web application that helps users track income and expenses, manage budgets, monitor savings goals and understand their financial activities through interactive charts and AI-based financial guidance.
+            </p>
+
+            <div class="project-tech-stack">
+              <div class="tech-stack-title">Technologies Used:</div>
+              <div class="tech-tags">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Google Gemini AI</span>
+              </div>
+            </div>
+
+            <div class="project-actions">
+              <!-- 
+                EDITABLE LINK PLACEHOLDER:
+                Replace '#' with your actual project GitHub repository or live URL.
+                Example: href="https://github.com/your-username/finance-advisor-bot"
+              -->
+              <a href="#" class="project-btn" data-placeholder="true" data-project-name="Personal Finance Advisor Bot">
+                <span>View Project</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 2: NEXACARE – AI HEALTHCARE PLATFORM -->
+        <div class="project-card">
+          <div class="project-image-box">
+            <img src="assets/project-nexacare.svg" alt="NexaCare AI Healthcare Platform Illustration">
+          </div>
+          <div class="project-content">
+            <span class="project-type-tag">Healthcare &amp; AI</span>
+            <h3 class="project-title">NEXACARE – AI HEALTHCARE PLATFORM</h3>
+            <p class="project-description">
+              An AI-powered healthcare coordination platform designed to connect patients, doctors and hospitals through healthcare services and digital coordination.
+            </p>
+
+            <div class="project-tech-stack">
+              <div class="tech-stack-title">Domain &amp; Architecture:</div>
+              <div class="tech-tags">
+                <span class="tech-tag">AI Healthcare</span>
+                <span class="tech-tag">Digital Coordination</span>
+                <span class="tech-tag">System Design</span>
+              </div>
+            </div>
+
+            <div class="project-actions">
+              <!-- 
+                EDITABLE LINK PLACEHOLDER:
+                Replace '#' with your actual project GitHub repository or live URL.
+              -->
+              <a href="#" class="project-btn" data-placeholder="true" data-project-name="NexaCare – AI Healthcare Platform">
+                <span>View Project</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 3: ROADMIND AI -->
+        <div class="project-card">
+          <div class="project-image-box">
+            <img src="assets/project-roadmind.svg" alt="RoadMind AI Concept Illustration">
+          </div>
+          <div class="project-content">
+            <span class="project-type-tag">Smart Mobility &amp; Vision</span>
+            <h3 class="project-title">ROADMIND AI</h3>
+            <p class="project-description">
+              An AI-based road condition and pothole detection concept focused on improving road safety and supporting smarter travel.
+            </p>
+
+            <div class="project-tech-stack">
+              <div class="tech-stack-title">Domain &amp; Concept:</div>
+              <div class="tech-tags">
+                <span class="tech-tag">Computer Vision Concept</span>
+                <span class="tech-tag">Road Safety AI</span>
+                <span class="tech-tag">Smart Cities</span>
+              </div>
+            </div>
+
+            <div class="project-actions">
+              <!-- 
+                EDITABLE LINK PLACEHOLDER:
+                Replace '#' with your actual project GitHub repository or live URL.
+              -->
+              <a href="#" class="project-btn" data-placeholder="true" data-project-name="RoadMind AI">
+                <span>View Project</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       CERTIFICATIONS SECTION
+       (Note: Strictly the exact five specified certificate names ONLY)
+       ====================================================================== -->
+  <section class="section certifications-section" id="certifications">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Certifications</span>
+        <h2 class="section-title">Certifications</h2>
+        <p class="section-subtitle">Verified accreditations and formal completions recognized by industry and academic bodies.</p>
+      </div>
+
+      <div class="certifications-grid">
+        
+        <!-- Certificate 1: Bajaj Manufacturing System -->
+        <div class="cert-card">
+          <div class="cert-icon-container">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 15l-2 5l9-11h-7l2-5l-9 11h7z"/>
+            </svg>
+          </div>
+          <h3 class="cert-name">Bajaj Manufacturing System</h3>
+        </div>
+
+        <!-- Certificate 2: Internal Smart India Hackathon -->
+        <div class="cert-card">
+          <div class="cert-icon-container">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="8" r="7"></circle>
+              <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+            </svg>
+          </div>
+          <h3 class="cert-name">Internal Smart India Hackathon</h3>
+        </div>
+
+        <!-- Certificate 3: NASSCOM FutureSkills Prime -->
+        <div class="cert-card">
+          <div class="cert-icon-container">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+            </svg>
+          </div>
+          <h3 class="cert-name">NASSCOM FutureSkills Prime</h3>
+        </div>
+
+        <!-- Certificate 4: Imarticus Learning -->
+        <div class="cert-card">
+          <div class="cert-icon-container">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+            </svg>
+          </div>
+          <h3 class="cert-name">Imarticus Learning</h3>
+        </div>
+
+        <!-- Certificate 5: Eureka! -->
+        <div class="cert-card">
+          <div class="cert-icon-container">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 18h6"/>
+              <path d="M10 22h4"/>
+              <path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5h6.18z"/>
+            </svg>
+          </div>
+          <h3 class="cert-name">Eureka!</h3>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       CONTACT SECTION
+       ====================================================================== -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Contact</span>
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-subtitle">Interested in collaboration, internship opportunities, or the Incubation Mentorship Program? Feel free to reach out.</p>
+      </div>
+
+      <div class="contact-grid">
+        
+        <!-- Contact Information & Channels -->
+        <div class="contact-info-card">
+          <h3 class="contact-info-title">Reach Out Directly</h3>
+          <p class="contact-info-intro">
+            I am always enthusiastic about discussing artificial intelligence, exploring innovative project ideas, and contributing to technical teams.
+          </p>
+
+          <div class="contact-channels">
+            
+            <!-- Email Address -->
+            <div class="channel-item">
+              <div class="channel-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="channel-details">
+                <span class="channel-label">Email Address</span>
+                <a href="mailto:sanikaghare87@gmail.com" class="channel-link" title="Click to email Sanika">
+                  sanikaghare87@gmail.com
+                </a>
+              </div>
+            </div>
+
+            <!-- LinkedIn Profile -->
+            <div class="channel-item">
+              <div class="channel-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+              </div>
+              <div class="channel-details">
+                <span class="channel-label">LinkedIn</span>
+                <a href="https://www.linkedin.com/in/sanika-ghare-99186b384?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" class="channel-link">
+                  linkedin.com/in/sanika-ghare-99186b384
+                </a>
+              </div>
+            </div>
+
+            <!-- GitHub Profile -->
+            <div class="channel-item">
+              <div class="channel-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+                </svg>
+              </div>
+              <div class="channel-details">
+                <span class="channel-label">GitHub</span>
+                <a href="https://github.com/sanikaghare87" target="_blank" rel="noopener noreferrer" class="channel-link">
+                  github.com/sanikaghare87
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-card">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="senderName">Your Name</label>
+              <input type="text" id="senderName" class="form-control" placeholder="e.g. John Doe" required>
+            </div>
+
+            <div class="form-group">
+              <label for="senderEmail">Your Email</label>
+              <input type="email" id="senderEmail" class="form-control" placeholder="e.g. john@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="messageSubject">Subject</label>
+              <input type="text" id="messageSubject" class="form-control" placeholder="Internship Opportunity / Inquiry" required>
+            </div>
+
+            <div class="form-group">
+              <label for="senderMessage">Message</label>
+              <textarea id="senderMessage" class="form-control" placeholder="Write your message here..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary form-submit-btn">
+              <span>Send Message</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
+
+            <!-- Success notification toast container -->
+            <div id="formFeedback" class="form-feedback"></div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       FOOTER
+       ====================================================================== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-logo">
+        <div class="logo-badge">SG</div>
+        <span>Sanika Ghare</span>
+      </div>
+
+      <p class="footer-tagline">
+        Artificial Intelligence &amp; Data Science Student • Dr. D. Y. Patil College of Engineering and Innovation, Pune.
+      </p>
+
+      <ul class="footer-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- Footer Social Links -->
+      <div class="footer-socials">
+        <a href="mailto:sanikaghare87@gmail.com" class="footer-social-btn" title="Email Sanika">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+            <polyline points="22,6 12,13 2,6"></polyline>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/sanika-ghare-99186b384?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" class="footer-social-btn" title="LinkedIn Profile">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+          </svg>
+        </a>
+        <a href="https://github.com/sanikaghare87" target="_blank" rel="noopener noreferrer" class="footer-social-btn" title="GitHub Profile">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+          </svg>
+        </a>
+      </div>
+
+      <div class="footer-divider"></div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear">2026</span> Sanika Ghare. All rights reserved.</p>
+        <p>Crafted with elegance in Lavender &amp; White Theme</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ======================================================================
+       BACK TO TOP BUTTON
+       ====================================================================== -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <path d="M18 15l-6-6-6 6"/>
+    </svg>
+  </button>
+
+  <!-- ======================================================================
+       PROJECT LINK PLACEHOLDER MODAL
+       ====================================================================== -->
+  <div class="modal-overlay" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalProjectName">
+    <div class="modal-card">
+      <div class="modal-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="12" y1="16" x2="12" y2="12"></line>
+          <line x1="12" y1="8" x2="12.01" y2="8"></line>
+        </svg>
+      </div>
+      <h3 id="modalProjectName">Project Showcase</h3>
+      <p>
+        This project link placeholder is ready to be linked to your live GitHub repository or deployed web application. You can easily edit the <code>href</code> in <code>index.html</code>.
+      </p>
+      <button class="btn btn-primary modal-close-btn" id="modalClose">Got it</button>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
